@@ -1,22 +1,17 @@
 <template>
   <div>
    {{msg}}
-   <warp/>
   </div>
 </template>
 
 <script>
-import Warp from '@/components/warp.vue'
 export default {
   name: 'my',
   data () {
     return {
-     msg:'我的页面'
+     msg:'办卡详情'
     }
-  },
-  components: {
-        warp:Warp
-    }
+  }
 }
 </script>
 
