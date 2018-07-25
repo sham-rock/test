@@ -29,7 +29,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .ad_1{
-  margin: 13px 10px 15px;
+  margin: 13px 10px 10px;
 }
 .ad_1 img,.ad_2 img{
   width: 100%;

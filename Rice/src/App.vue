@@ -15,7 +15,7 @@ export default {
 }
 </script>
 <style>
-html,body{
+html,body,p{
     margin: 0;
     padding: 0;
     background: #FFFFFF;
@@ -23,7 +23,11 @@ html,body{
 img{
   width: 100%;
 }
-
+ input[type="text"], input {
+	resize: none;
+	border: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 </style>
 
 

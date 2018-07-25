@@ -32,7 +32,6 @@ export default {
     }
   },
   created(){
-    console.log(this.$route.path)
     let path = this.$route.path
     if(path=='/home'){
       this.homeIcon = true;

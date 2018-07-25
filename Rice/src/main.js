@@ -4,16 +4,16 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import axios from 'axios'
+// import axios from 'axios'
 // 引入mint-ui组件库
-import MintUI from 'mint-ui'
-import 'mint-ui/lib/style.css'
+// import MintUI from 'mint-ui'
+// import 'mint-ui/lib/style.css'
 
 //引入mui的css
 import "@/assets/libs/mui/css/mui.css"
 import "@/assets/libs/mui/css/icons-extra.css"
 
-Vue.use(MintUI)
+// Vue.use(MintUI)
 
 Vue.config.productionTip = false
 

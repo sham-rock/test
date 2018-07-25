@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="box">
    <div v-for="(item,index) in imgList" :key='index' class="card" @click="goCardDetails(index)">
      <img :src="item" alt="">
    </div>
@@ -23,7 +23,7 @@ export default {
     goCardDetails(index){
       this.$router.push({
         path:'/cardDetails',
-        name:"订单详情",
+        name:"cardDetails",
         params:{index}
       })
     }
@@ -36,8 +36,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.box{
+  margin-top: 17px;
+}
 .card{
-  margin-top: 3px;
-  padding: 14px 7px 0 8px;
+  padding: 0 7px 0 8px;
 }
 </style>
